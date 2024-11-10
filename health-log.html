@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Health Log</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Health Log</h1>
+    <input type="number" id="steps" placeholder="Steps walked">
+    <input type="number" id="calories" placeholder="Calories consumed">
+    <input type="number" id="water" placeholder="Water intake (oz)">
+    <input type="number" id="sleep" placeholder="Sleep duration (hours)">
+    <select id="sleep-quality">
+      <option value="">Select Sleep Quality</option>
+      <option value="Restful">Restful</option>
+      <option value="Disturbed">Disturbed</option>
+    </select>
+    <button id="log-stats">Log Health Stats</button>
+    <button onclick="window.location.href='index.html'">Back to Menu</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

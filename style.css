@@ -1,0 +1,65 @@
+/* Basic styles for layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh; /* Ensures the background covers the entire height of the viewport */
+  background-image: url('health.jpg'); /* Add your image path here */
+  background-size: 100%; /* Zoom out the background image */
+  background-position: center center; /* Centers the background image */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black; /* Default text color is white for the page */
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 900px; /* Limits the container's width */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to make content readable */
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 3rem; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: white; /* Keep the heading color white */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Distribute buttons evenly */
+  gap: 10px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+button {
+  padding: 15px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #f5f5f5; /* Dark blue background for buttons */
+  color: black; /* Button text color remains white */
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  min-width: 150px; /* Ensure buttons are large enough */
+}
+
+button:hover {
+  background-color: #002244; /* Darker blue when hovered */
+}
+
+
+
+
+
+
+
+
+  
+  
+  
